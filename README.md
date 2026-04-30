@@ -48,7 +48,7 @@ In this notebook, we build and train a baseline machine learning model to classi
 
 Loaded with:
 ```python
-from sklearn.datasets import fetch_openml
+from sklearn.datasets import fetch_openml'''
 🤖 Machine Learning Model
 
 Model: Logistic Regression
@@ -62,10 +62,10 @@ This baseline model provides initial performance metrics before moving to more a
 📁 Project Structure
 
                                                                     text
-MNIST-Classifier
+'''MNIST-Classifier
 │
 ├── mnist_classifier.ipynb
-└── README.md
+└── README.md'''
 
 📈 Example Tasks in the Notebook
 
@@ -78,7 +78,7 @@ MNIST-Classifier
 🚀 How to Run
 
     Clone the repository:
-
+'''
                                                                     bash
    git clone https://github.com/parsazamani1383/MNIST-Classifier.git
    
@@ -93,7 +93,7 @@ MNIST-Classifier
 
                                                                     bash
    jupyter notebook
-   
+   '''
 
     Open mnist_classifier.ipynb and run all cells step by step.
 
