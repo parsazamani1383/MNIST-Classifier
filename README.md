@@ -43,13 +43,14 @@ In this notebook, we build and train a baseline machine learning model to classi
 ## 📊 Dataset
 
 **Source:** [MNIST handwritten digits](https://www.openml.org/d/554)  
-**Size:** 70,000 images — each represented by 784 features (28×28 p  
+**Size:** 70,000 images — each represented by 784 features (28×28 pixels)  
 **Classes:** 10 (digits 0–9)
 
-Loaded with:
+**Loaded with:**
 ```python
 from sklearn.datasets import fetch_openml
-```🤖 Machine Learning Model
+
+🤖 Machine Learning Model
 
 Model: Logistic Regression
 
@@ -62,15 +63,15 @@ This baseline model provides initial performance metrics before moving to more a
 📁 Project Structure
 
                                                                     text
-```'MNIST-Classifier
+MNIST-Classifier
 │
 ├── mnist_classifier.ipynb
-└── README.md```
+└── README.md
 
 📈 Example Tasks in the Notebook
 
     Visualize 9 random handwritten digits
-    Analyze class distribution (balanced check)
+    Analyze class distribution (balance check)
     Scale pixel values from 0–255 to 0–1
     Train the Logistic Regression model
     Evaluate accuracy on the test set
@@ -78,7 +79,7 @@ This baseline model provides initial performance metrics before moving to more a
 🚀 How to Run
 
     Clone the repository:
-```
+
                                                                     bash
    git clone https://github.com/parsazamani1383/MNIST-Classifier.git
    
@@ -93,17 +94,24 @@ This baseline model provides initial performance metrics before moving to more a
 
                                                                     bash
    jupyter notebook
-```
+   
+
     Open mnist_classifier.ipynb and run all cells step by step.
 
 🔮 Future Improvements
 
     Compare multiple classifiers (SVM, Random Forest, etc.)
     Add performance metrics (precision, recall, F1‑score)
-    Visualize Confusion Matrix
+    Visualize confusion matrix
     Integrate a simple Neural Network / CNN
     Save the trained model for deployment
 
 🪪 License
 
 MIT License — free to use, modify, and share for learning and research.
+
+Built with 🔥 by Parsa Zamani
+
+                                                                    text
+
+---
