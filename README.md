@@ -52,7 +52,7 @@ from sklearn.datasets import fetch_openml
 
 ---
 
-🤖 Machine Learning Model
+## 🤖 Machine Learning Model
 
 Model: Logistic Regression
 
