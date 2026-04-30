@@ -48,8 +48,8 @@ In this notebook, we build and train a baseline machine learning model to classi
 
 Loaded with:
 ```python
-from sklearn.datasets import fetch_openml```
-🤖 Machine Learning Model
+from sklearn.datasets import fetch_openml
+```🤖 Machine Learning Model
 
 Model: Logistic Regression
 
