@@ -55,10 +55,10 @@ In this notebook, we build and train a baseline machine learning model to classi
 
 Model: Logistic Regression
 
-    Multi‑class classification (digits 0–9)
-    Solver: lbfgs
-    max_iter=1000 for convergence
-    stratify=y to keep class balance during split
+* Multi‑class classification (digits 0–9)
+* Solver: lbfgs
+* max_iter=1000 for convergence
+* stratify=y to keep class balance during split
 
 This baseline model provides initial performance metrics before moving to more advanced algorithms.
 📁 Project Structure
@@ -73,15 +73,15 @@ This baseline model provides initial performance metrics before moving to more a
 
 📈 Example Tasks in the Notebook
 
-    Visualize 9 random handwritten digits
-    Analyze class distribution (balance check)
-    Scale pixel values from 0–255 to 0–1
-    Train the Logistic Regression model
-    Evaluate accuracy on the test set
+* Visualize 9 random handwritten digits
+* Analyze class distribution (balance check)
+* Scale pixel values from 0–255 to 0–1
+* Train the Logistic Regression model
+* Evaluate accuracy on the test set
 
 🚀 How to Run
 
-        Clone the repository:
+**Clone the repository:**
 
                                                                     bash
        git clone https://github.com/parsazamani1383/MNIST-Classifier.git
@@ -92,7 +92,7 @@ This baseline model provides initial performance metrics before moving to more a
                                                                     bash
     cd MNIST-Classifier
    
-    Launch Jupyter Notebook:
+**Launch Jupyter Notebook:**
 
                                                                     bash
     jupyter notebook
@@ -102,11 +102,11 @@ Open mnist_classifier.ipynb and run all cells step by step.
 
 🔮 Future Improvements
 
-    Compare multiple classifiers (SVM, Random Forest, etc.)
-    Add performance metrics (precision, recall, F1‑score)
-    Visualize confusion matrix
-    Integrate a simple Neural Network / CNN
-    Save the trained model for deployment
+* Compare multiple classifiers (SVM, Random Forest, etc.)
+* Add performance metrics (precision, recall, F1‑score)
+* Visualize confusion matrix
+* Integrate a simple Neural Network / CNN
+* Save the trained model for deployment
 
 🪪 License
 
