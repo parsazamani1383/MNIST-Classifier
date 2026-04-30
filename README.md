@@ -47,7 +47,8 @@ In this notebook, we build and train a baseline machine learning model to classi
 **Classes:** 10 (digits 0–9)
 
 **Loaded with:**
-from sklearn.datasets import fetch_openml
+
+    from sklearn.datasets import fetch_openml
 
 ---
 ## 🤖 Machine Learning Model
@@ -64,9 +65,11 @@ This baseline model provides initial performance metrics before moving to more a
 
                                                                     text
 MNIST-Classifier
-│
-├── mnist_classifier.ipynb
-└── README.md
+    │
+
+    ├── mnist_classifier.ipynb
+
+    └── README.md
 
 📈 Example Tasks in the Notebook
 
@@ -78,25 +81,24 @@ MNIST-Classifier
 
 🚀 How to Run
 
-    Clone the repository:
+        Clone the repository:
 
                                                                     bash
-   git clone https://github.com/parsazamani1383/MNIST-Classifier.git
+       git clone https://github.com/parsazamani1383/MNIST-Classifier.git
    
 
-    Enter the project directory:
+**Enter the project directory:**
 
                                                                     bash
-   cd MNIST-Classifier
+    cd MNIST-Classifier
    
-
     Launch Jupyter Notebook:
 
                                                                     bash
-   jupyter notebook
+    jupyter notebook
    
 
-    Open mnist_classifier.ipynb and run all cells step by step.
+Open mnist_classifier.ipynb and run all cells step by step.
 
 🔮 Future Improvements
 
@@ -112,6 +114,4 @@ MIT License — free to use, modify, and share for learning and research.
 
 Built with 🔥 by Parsa Zamani
 
-                                                                    text
-
----
+             
