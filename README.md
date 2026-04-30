@@ -47,11 +47,9 @@ In this notebook, we build and train a baseline machine learning model to classi
 **Classes:** 10 (digits 0–9)
 
 **Loaded with:**
-```python
 from sklearn.datasets import fetch_openml
-**
----
 
+---
 ## 🤖 Machine Learning Model
 
 Model: Logistic Regression
