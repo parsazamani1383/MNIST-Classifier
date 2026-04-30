@@ -64,7 +64,7 @@ This baseline model provides initial performance metrics before moving to more a
 📁 Project Structure
 
                                                                     text
-MNIST-Classifier
+    MNIST-Classifier
     │
 
     ├── mnist_classifier.ipynb
